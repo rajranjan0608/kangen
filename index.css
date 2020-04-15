@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+div nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid gold;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 100; }
+  div nav .logo {
+    margin: 0 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px; }
+    div nav .logo a {
+      text-decoration: none;
+      color: gold; }
+      div nav .logo a:hover {
+        color: #ffef99; }
+  div nav .nav ul {
+    display: flex;
+    list-style: none; }
+    div nav .nav ul .nav-item {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.6);
+      padding: 0 20px;
+      margin-left: 20px;
+      text-align: center;
+      line-height: 80px;
+      transition: letter-spacing 0.3s; }
+      div nav .nav ul .nav-item:hover {
+        color: rgba(255, 255, 255, 0.9);
+        letter-spacing: 3px;
+        transition: all 0.3s; }
+
+div .showcase {
+  background-image: url("showcase.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+  div .showcase h1 {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 4px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.6); }
+    div .showcase h1 span {
+      color: gold; }
+  div .showcase p {
+    text-align: center;
+    position: relative;
+    top: 310px;
+    color: white;
+    font-size: 42px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px; }
+    div .showcase p span {
+      color: gold; }
+  div .showcase a {
+    color: gold;
+    font-size: 28px;
+    padding: 10px;
+    text-decoration: none;
+    border: 0.5px solid gold;
+    position: relative;
+    top: 340px;
+    left: 39%; }
+    div .showcase a:hover {
+      color: white; }
+
+div .about {
+  background-image: url("product-back.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 18px; }
+  div .about .history {
+    border-bottom: 0.5px solid gold;
+    padding: 50px 0; }
+    div .about .history h1 {
+      color: gold;
+      letter-spacing: 5px;
+      display: inline-block; }
+    div .about .history p span {
+      color: gold; }
+  div .about .reason {
+    padding-top: 50px; }
+    div .about .reason h1 {
+      color: gold;
+      letter-spacing: 5px;
+      display: inline-block; }
+    div .about .reason p span {
+      color: gold; }
+  div .about .benefits {
+    border-bottom: 0.5px solid gold;
+    padding: 50px 0; }
+    div .about .benefits h1 {
+      color: gold;
+      letter-spacing: 5px;
+      display: inline-block; }
+    div .about .benefits p span {
+      color: gold; }
+  div .about .models {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 50px 10px; }
+    div .about .models img {
+      width: 250px;
+      height: 250px;
+      border: 4px solid gold;
+      border-radius: 10%; }
+  div .about .pdf {
+    padding-top: 30px; }
+    div .about .pdf a {
+      text-decoration: none;
+      color: gold;
+      border: 1px solid gold;
+      padding: 20px; }
+      div .about .pdf a:hover {
+        color: white; }
+
+div .contact {
+  height: 100vh;
+  background-image: url("contact.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+  div .contact h1 {
+    color: gold;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+    letter-spacing: 6px; }
+  div .contact .contact-details {
+    position: relative;
+    top: 20vh;
+    left: 5vh;
+    padding: 20px;
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    width: 38%;
+    height: 50vh;
+    color: white;
+    font-size: 28px; }
+    div .contact .contact-details span {
+      color: gold; }
+    div .contact .contact-details img {
+      height: 180px;
+      width: 180px;
+      margin: 0px auto;
+      display: block;
+      border-radius: 50%;
+      border: 2px solid gold; }
+    div .contact .contact-details .img-name {
+      text-align: center;
+      display: block;
+      font-family: 'Dancing Script', cursive; }
+
+div footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  color: white;
+  text-align: center; }
+  div footer span {
+    color: gold; }
+
+div .gallery {
+  background-image: url("gallery-back.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top: 2px solid gold; }
+  div .gallery p {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px; }
+  div .gallery .watchlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 50px; }
+    div .gallery .watchlist iframe {
+      border: 2px solid gold;
+      outline: none;
+      border-radius: 10px; }
+  div .gallery .photogal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    padding-left: 20px;
+    grid-gap: 10px; }
+    div .gallery .photogal .photogallery {
+      border: 5px solid gold;
+      border-radius: 7%;
+      width: 80%; }
+  div .gallery .disclamer span {
+    color: gold; }
+
+@media (max-width: 760px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    min-width: 100%; }
+  div nav {
+    display: block; }
+    div nav .logo {
+      text-align: center; }
+      div nav .logo a {
+        display: inline-block;
+        font-size: 24px; }
+    div nav .nav ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0;
+      margin: 0 auto; }
+  div .showcase {
+    text-align: center; }
+    div .showcase h1 {
+      position: static;
+      display: inline-block;
+      margin-top: 190px;
+      margin-bottom: 100px; }
+    div .showcase p {
+      display: none; }
+    div .showcase a {
+      position: static;
+      font-size: 18px; }
+  div .contact h1 {
+    position: static;
+    margin-top: 150px;
+    font-size: 24px; }
+  div .contact .contact-details {
+    border: none;
+    color: gold;
+    position: static;
+    font-size: 16px; }
+    div .contact .contact-details span {
+      color: white; }
+    div .contact .contact-details img {
+      margin: 10px auto; }
+    div .contact .contact-details .img-name {
+      font-size: 24px;
+      margin-left: 40px; }
+  div .gallery {
+    background-image: url("gallery-back.jpg");
+    overflow: auto; }
+    div .gallery p {
+      font-size: 16px; }
+    div .gallery .watchlist {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+      margin-left: 20px; }
+    div .gallery .photogal {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 10px auto;
+      grid-gap: 10px; }
+      div .gallery .photogal .photogallery {
+        border: 5px solid gold;
+        border-radius: 15%;
+        width: 300px; }
+  div .about {
+    padding-left: 5px;
+    font-size: 16px; }
+    div .about .models {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 5px; }
+      div .about .models img {
+        width: 140px;
+        height: 140px; } }
+
+@media (max-width: 380px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    min-width: 100%; }
+  div nav {
+    display: block; }
+    div nav .logo {
+      text-align: center; }
+      div nav .logo a {
+        display: inline-block; }
+    div nav .nav ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0;
+      margin: 0 auto; }
+      div nav .nav ul .nav-item {
+        margin-left: 0; }
+  div .showcase {
+    text-align: center; }
+    div .showcase h1 {
+      position: static;
+      display: inline-block;
+      margin-top: 190px;
+      margin-bottom: 100px; }
+    div .showcase p {
+      display: none; }
+    div .showcase a {
+      position: static;
+      font-size: 18px; }
+  div .contact h1 {
+    position: static;
+    margin-top: 150px;
+    font-size: 24px; }
+  div .contact .contact-details {
+    border: none;
+    color: gold;
+    position: static;
+    font-size: 16px; }
+    div .contact .contact-details span {
+      color: white; }
+    div .contact .contact-details img {
+      margin: 0 auto;
+      height: 100px;
+      width: 100px; }
+    div .contact .contact-details .img-name {
+      font-size: 16px;
+      margin: 0; } }
